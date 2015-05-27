@@ -94,7 +94,7 @@
 - Prefer instances over classes and modules
 - Use objects to encapsulate state
 - Prefer local variables over instance variables
-- Instance variables should hold state with the same life span as the object. [bounty](https://github.com/appfolio/great_code/issues/5)
+- Instance variables should hold state with the same life span as the object. [(bounty)](https://github.com/appfolio/great_code/issues/5)
 - Don't use instance variables to pass data across methods
 - Only provide accessors when necessary
 - Inject dependencies
