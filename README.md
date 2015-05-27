@@ -24,17 +24,6 @@
   - [Partials](#partials)
   - [Models](#models)
   - [Engines](#engines)
-- [Appfolio](#appfolio)
-  - [Transaction hooks](#transaction-hooks)
-  - [AfRuntime](#afruntime)
-  - [Jobs](#jobs)
-  - [Per-view JS](#per-view-js)
-  - [Components](#components)
-  - [Hideable](#hideable)
-  - [JS](#js)
-  - [CSS](#css)
-  - [Exemplars](#exemplars)
-  - [Page objects](#page-objects)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -209,28 +198,3 @@
 - Provide injection defaults
 - Avoid use of `main_app` view route proxy
 - Don't provide, use or reference an "Application" controller, helper, JS, CSS, etc.
-
-# Appfolio
-
-## Transaction hooks
-- [What’s that transaction noise in my backtrace?](https://docs.google.com/presentation/d/1zF2PHU6d_0dW6E8hN1K-jLxXeR0eyA54U8pqeaiNZAA/edit#slide=id.p)
-
-## AfRuntime
-
-## Jobs
-
-## Per-view JS
-- [Front End conventions: Per View Javascript](https://groups.google.com/a/appfolio.com/forum/?hl=en#!searchin/dev.list/per$20view$20js/dev.list/OtiNg-5PHZg/rox864deVQsJ)
-
-## Components
-- [Front-End Development](https://sites.google.com/a/appfolio.com/engineering/resources/code/front-end-development)
-
-## Hideable
-
-## JS
-
-## CSS
-
-## Exemplars
-
-## Page objects
