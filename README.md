@@ -54,6 +54,8 @@
 # Ruby
 
 ## General
+- Understand the [Ruby Object model](https://blog.jcoglan.com/2013/05/08/how-ruby-method-dispatch-works/)
+- Understand Ruby autoloading
 - Avoid globals ($global_var, referencing external constants, ENV)
 - Avoid dangling references
 - Avoid opening classes/modules
@@ -131,6 +133,7 @@
 # Rails
 
 ## General
+- Understand [Rails autoloading](http://guides.rubyonrails.org/autoloading_and_reloading_constants.html)
 - Avoid Rails' autoloading where possible
 - Prefer the Rails Way unless you have a good reason not to
 - Prefer Ruby's `nil?` over ActiveSupport's `present?`/`blank?`
@@ -151,6 +154,7 @@
 - Use services for business logic
 - Verify parameters
 - Use the appropriate HTTP status code
+- Prefer "passing" one instance/local variable to render views
 
 ## Controller tests
 - Rails Way: only one controller action per test
