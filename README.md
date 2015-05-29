@@ -192,6 +192,7 @@
 - Avoid overriding common `ActiveRecord::Base` methods (`initialize`, `save`/`save!`, `create`/`create!`, etc.)
 - Avoid using `default_scope`
 - Avoid using `update_attribute`
+- Avoid using [`update_columns` and `update_column`](https://cbabhusal.wordpress.com/2014/10/08/different-between-update-update_columns-update_column-update_attributes-assign_attributes/)
 - Prefer and default to using validations
 - Prefer and default to using `!`-methods that raise exceptions when validations fail
 - Handle the return value when using non-`!`-methods (e.g. `save` and `create`)
