@@ -61,6 +61,7 @@
 - Avoid opening classes/modules
 - Avoid using `eval`
 - Prefer composing objects over using mixins
+- Avoid putting methods in base classes that only apply to some-but-not-all subclasses.
 - Avoid using `alias`, `alias_method` or `alias_method_chain` [:microphone:](https://github.com/appfolio/great_code/issues/4)
 - Avoid using keywords or common methods for names (e.g. `send`, `include`, etc.)
 - Prefer variables with the smallest scope (local variables, instance variables, class instance variables, class variables)
