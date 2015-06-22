@@ -97,7 +97,7 @@
 - Prefer instances over classes and modules
 - Use objects to encapsulate state
 - Prefer local variables over instance variables
-- Instance variables should hold state with the same life span as the object. [:icecream:](https://github.com/appfolio/great_code/issues/5)
+- Instance variables should hold state with the same life span as the object (see [here](http://programmers.stackexchange.com/questions/214851/ruby-when-to-use-instance-variables-vs-parameters-between-methods) for an explanation). [:icecream:](https://github.com/appfolio/great_code/issues/5)
 - Don't use instance variables to pass data across methods
 - Only provide accessors when necessary
 - Inject dependencies
