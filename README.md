@@ -78,6 +78,18 @@
 - Avoid uses of `respond_to?` and `method_defined?`
 - Prefer `respond_to?` over `obj.class.method_defined?`
 - Raise well-named, descriptive exceptions; don't call `raise` without an exception class
+- Class or module definitions nested in namespacing modules should use the long format like so:
+
+  ```ruby
+    module SomeNamespace
+      class MyClass
+  ```
+  
+  as opposed to:
+  
+  ```ruby
+  class SomeNamespace::MyClass
+  ```
 
 ## Naming
 - Use meaningful, intention-revealing names.
