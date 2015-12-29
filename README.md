@@ -147,7 +147,7 @@
 
 ## General
 - Understand [Rails autoloading](http://guides.rubyonrails.org/autoloading_and_reloading_constants.html)
-- Avoid Rails' autoloading where possible
+- [Avoid Rails' autoloading where possible](loading_files.md)
 - Prefer the Rails Way unless you have a good reason not to
 - Prefer Ruby's `nil?` over ActiveSupport's `present?`/`blank?`
 - Generally avoid and only use `try`/`present?`/`blank?` when appropriate
