@@ -43,7 +43,7 @@
 - Test your code
 - Address deprecation warnings; don't add new ones
 - Mind code line lengths; use whitespace 
-- Make [small things](http://en.wikipedia.org/wiki/Division_of_labour) (classes, modules, objects, subsystems, etc.) that have [specific responsibilities](http://en.wikipedia.org/wiki/Single_responsibility_principle)
+- Make [small things](https://www.youtube.com/watch?v=8bZh5LMaSmE) (classes, modules, objects, subsystems, etc.) that have [specific responsibilities](http://en.wikipedia.org/wiki/Single_responsibility_principle)
 
 # Javascript
 - Understand the integral types
